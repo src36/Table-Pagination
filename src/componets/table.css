@@ -1,0 +1,35 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  position: sticky;
+  top: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: centre;
+  background-color: #04aa6d;
+  color: white;
+}
+.input {
+  position: sticky;
+  top: 0;
+  background-color: #ddd;
+  z-index: 2;
+}
